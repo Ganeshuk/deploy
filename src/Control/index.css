@@ -1,0 +1,26 @@
+.gg {
+  width: 25%;
+  padding: 10px;
+}
+.li {
+  color: white;
+}
+.card-control {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+.h1 {
+  font-family: roboto;
+  font-size: 20px;
+}
+.dom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.input1 {
+  margin: 10px;
+}

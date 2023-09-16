@@ -1,0 +1,29 @@
+.job-card {
+  display: flex;
+  padding: 10px;
+  background-color: #000000;
+}
+.icons {
+  color: white;
+}
+.input-align {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #2c364c;
+  height: 23px;
+  width: 300px;
+  padding: 6px;
+  margin-left: 50px;
+}
+.narra {
+  display: flex;
+  flex-direction: column;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80vw;
+}

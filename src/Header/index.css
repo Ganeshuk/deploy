@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #272727;
+}
+.home {
+  display: flex;
+  font-family: roboto;
+}
+.p {
+  margin: 10px;
+  color: white;
+}
+.nav-img {
+  height: 30px;
+}
+.btn {
+  margin-top: 10px;
+  color: white;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
