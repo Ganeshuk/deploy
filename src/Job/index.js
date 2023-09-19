@@ -63,8 +63,17 @@ class Job extends Component {
     console.log(result.jobs)
   }
 
+  search = async () => {
+    const {jobs} = this.state
+    const id = document.getElementById('input')
+    const bhola = jobs.filter(each => each.title.includes(id.value))
+    this.setState({jobs: bhola})
+    console.log(bhola)
+  }
+
   render() {
     const {jobs, loader} = this.state
+
     return (
       <div>
         <Header />
@@ -72,8 +81,9 @@ class Job extends Component {
           <Control fun={this.getdetial} />
           <div className="narra">
             <div className="input-align">
-              <input type="text" className="input-job" />
-              <BsSearch className="icons" />
+              <input type="text" className="input-job" id="input" />
+
+              <BsSearch className="icons" onClick={this.search} />
             </div>
             {loader ? (
               <div className="loader-container" data-testid="loader">
@@ -95,6 +105,7 @@ class Job extends Component {
                     pack={each.package_per_annum}
                     rating={each.rating}
                     title={each.title}
+                    id={each.id}
                     key={each.id}
                   />
                 ))}

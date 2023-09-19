@@ -5,6 +5,7 @@
 }
 .icons {
   color: white;
+  cursor: pointer;
 }
 .input-align {
   display: flex;

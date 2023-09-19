@@ -24,3 +24,8 @@ nav {
   border-radius: 4px;
   padding: 8px;
 }
+@media (max-width: 678px) {
+  .home {
+    display: none;
+  }
+}
